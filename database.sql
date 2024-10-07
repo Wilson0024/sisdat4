@@ -3,11 +3,11 @@ CREATE DATABASE tugas5prak;
 USE tugas5prak;
 
 -- Membuat tabel 'users' (Pengguna)
-    CREATE TABLE users (
-        user_id INT AUTO_INCREMENT PRIMARY KEY,
-        username VARCHAR(50) NOT NULL,
-        email VARCHAR(100) NOT NULL
-    );
+CREATE TABLE users (
+    user_id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50) NOT NULL,
+    email VARCHAR(100) NOT NULL
+);
 
 -- Membuat tabel 'products' (Produk)
 CREATE TABLE products (
